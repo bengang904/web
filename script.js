@@ -68,8 +68,10 @@ function displayCards(data) {
 
 // 搜索功能
 const searchBox = document.getElementById('search-box');
-searchBox.addEventListener('input', function() {
-    const searchTerm = this.value.trim().toLowerCase();  // 获取搜索框中的内容并转换为小写
+const searchBtn = document.getElementById('search-btn');  // 获取搜索按钮元素
+
+searchBtn.addEventListener('click', function() {
+    const searchTerm = searchBox.value.trim().toLowerCase();  // 获取搜索框中的内容并转换为小写
     const filteredData = websiteData.filter(website => {
         const regex = new RegExp(searchTerm, 'i');  // 正则表达式，'i' 忽略大小写
         return regex.test(website.name) || regex.test(website.description);  // 匹配 name 或 description
