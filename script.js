@@ -68,13 +68,20 @@ function displayCards(data) {
 
 // 搜索功能
 const searchBox = document.getElementById('search-box');
-const searchBtn = document.getElementById('search-btn');  // 获取搜索按钮元素
+const searchBtn = document.getElementById('search-btn');
 
 searchBtn.addEventListener('click', function() {
-    const searchTerm = searchBox.value.trim().toLowerCase();  // 获取搜索框中的内容并转换为小写
+    const searchTerm = searchBox.value.trim().toLowerCase();
     const filteredData = websiteData.filter(website => {
-        const regex = new RegExp(searchTerm, 'i');  // 正则表达式，'i' 忽略大小写
-        return regex.test(website.name) || regex.test(website.description);  // 匹配 name 或 description
+        const regex = new RegExp(searchTerm, 'i');
+        return regex.test(website.name) || regex.test(website.description);
     });
-    displayCards(filteredData);  // 显示匹配的卡片
+    displayCards(filteredData);
+});
+
+// 回车键也能触发搜索
+searchBox.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        searchBtn.click();  // 触发搜索按钮点击事件
+    }
 });
