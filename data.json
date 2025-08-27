@@ -41,6 +41,13 @@
         "type": "视频在线会议",
         "description": "Jitsi 是一个开源的在线视频会议和即时通讯平台，提供多种实时通信服务。它支持视频通话、语音通话、聊天、屏幕共享等功能，广泛应用于团队协作、在线教育和远程工作等场景。"
     },
+      {
+        "logo": "images/Just My Socks.png",
+        "name": "Just My Socks",
+        "url": "https://justmysocks.net",
+        "type": "网络节点",
+        "description": "Just My Socks（简称 JMS）是由加拿大公司 Fiber Logic Inc.运营的网络加速服务平台，隶属于 IT7 Networks Inc. 。该平台为用户提供稳定的跨境网络访问服务，支持 Shadowsocks（SS）和 V2Ray 协议，旨在帮助用户突破网络限制，访问全球互联网内容。"
+    },
     {
         "logo": "images/OpenStreetMap.jpg",
         "name": "OpenStreetMap",
@@ -99,3 +106,4 @@
     }
    
 ]
+
