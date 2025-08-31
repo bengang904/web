@@ -37,7 +37,7 @@
     {
         "logo": "images/Jitsi.png",
         "name": "Jitsi",
-        "url": "https://jitsi.org",
+        "url": "https://meet.jit.si",
         "type": "视频在线会议",
         "description": "Jitsi 是一个开源的在线视频会议和即时通讯平台，提供多种实时通信服务。它支持视频通话、语音通话、聊天、屏幕共享等功能，广泛应用于团队协作、在线教育和远程工作等场景。"
     },
@@ -106,5 +106,6 @@
     }
    
 ]
+
 
 
