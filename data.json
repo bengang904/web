@@ -77,6 +77,13 @@
         "description": "RuTracker是一个俄罗斯的非官方 BT种子分享网站，它提供了大量的 torrent文件，用户可以通过它下载各种内容，包括电影、音乐、软件、书籍、游戏等。这个网站是俄罗斯和其他一些国家用户常用的BT下载资源之一，拥有庞大的资源库和用户社区。"
     },
     {
+        "logo": "images/SMS-Activate.png",
+        "name": "SMS-Activate",
+        "url": "https://sms-activate.io",
+        "type": "SMS短信服务",
+        "description": "SMS-Activate 是一个提供临时手机号码接收短信验证的服务平台。用户可以通过该平台购买虚拟的手机号码，用于接收短信验证码，通常用于注册网站账户、验证应用等场景。这个服务主要面向需要验证的用户，特别是在匿名或者不希望透露个人手机号码的情况下。"
+    },
+    {
         "logo": "images/Tineye.png",
         "name": "Tineye",
         "url": "https://tineye.com",
@@ -106,6 +113,7 @@
     }
    
 ]
+
 
 
 
