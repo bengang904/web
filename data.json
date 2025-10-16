@@ -56,7 +56,7 @@
         "description": "OpenStreetMap是一个开源的、由社区共同构建的地图平台，提供全球范围的地图数据和相关服务。与商业地图平台不同，OpenStreetMap 的数据是开放的，任何人都可以使用、编辑和分享这些地图数据。"
     },
      {
-        "logo": "images/PayWithMoon.jpg",
+        "logo": "images/PayWithMoon.png",
         "name": "PayWithMoon",
         "url": "https://paywithmoon.com",M
         "type": "虚拟信用卡",
@@ -120,6 +120,7 @@
     }
    
 ]
+
 
 
 
