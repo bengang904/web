@@ -58,7 +58,7 @@
      {
         "logo": "images/PayWithMoon.png",
         "name": "PayWithMoon",
-        "url": "https://paywithmoon.com",M
+        "url": "https://paywithmoon.com",
         "type": "虚拟信用卡",
         "description": "PayWithMoon（Moon）是一个加密货币 + 虚拟信用卡 / 支付卡 / 预付卡 服务平台，目标是让用户用比特币、以太坊、USDT、USDC 等加密资产在日常商户（接受 Visa 等卡片的商家）消费。"
     },
@@ -120,6 +120,7 @@
     }
    
 ]
+
 
 
 
