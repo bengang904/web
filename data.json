@@ -1,5 +1,12 @@
 [
     {
+        "logo": "images/ArDrive.png",
+        "name": "ArDrive",
+        "url": "https://app.ardrive.io",
+        "type": "去中心化网盘",
+        "description": "ArDrive 是一个去中心化的永久云盘存储应用，构建在 Arweave 区块链上，用来安全、永久地保存文件。"
+    },
+    {
         "logo": "images/Bluesky.png",
         "name": "Bluesky",
         "url": "https://bsky.app",
@@ -120,6 +127,7 @@
     }
    
 ]
+
 
 
 
