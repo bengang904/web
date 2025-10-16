@@ -51,9 +51,16 @@
     {
         "logo": "images/OpenStreetMap.jpg",
         "name": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org",
+        "url": "https://www.openstreetmap.Porg",
         "type": "开源地图",
         "description": "OpenStreetMap是一个开源的、由社区共同构建的地图平台，提供全球范围的地图数据和相关服务。与商业地图平台不同，OpenStreetMap 的数据是开放的，任何人都可以使用、编辑和分享这些地图数据。"
+    },
+     {
+        "logo": "images/PayWithMoon.jpg",
+        "name": "PayWithMoon",
+        "url": "https://paywithmoon.com",M
+        "type": "虚拟信用卡",
+        "description": "PayWithMoon（Moon）是一个加密货币 + 虚拟信用卡 / 支付卡 / 预付卡 服务平台，目标是让用户用比特币、以太坊、USDT、USDC 等加密资产在日常商户（接受 Visa 等卡片的商家）消费。"
     },
     {
         "logo": "images/Quora.png",
@@ -113,6 +120,7 @@
     }
    
 ]
+
 
 
 
