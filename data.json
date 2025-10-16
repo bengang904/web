@@ -56,6 +56,13 @@
         "description": "Just My Socks 是由加拿大公司 Fiber Logic Inc.运营的网络加速服务平台，隶属于 IT7 Networks Inc. 。该平台为用户提供稳定的跨境网络访问服务，支持 Shadowsocks（SS）和 V2Ray 协议，旨在帮助用户突破网络限制，访问全球互联网内容。"
     },
     {
+        "logo": "images/Name.com.png",
+        "name": "Name.com",
+        "url": "https://name.com",
+        "type": "域名注册",
+        "description": "Name.com 是一家美国域名注册与网站托管公司，提供域名注册、DNS、邮件、SSL、建站等服务。"
+    },
+    {
         "logo": "images/OpenStreetMap.jpg",
         "name": "OpenStreetMap",
         "url": "https://www.openstreetmap.Porg",
@@ -127,6 +134,7 @@
     }
    
 ]
+
 
 
 
