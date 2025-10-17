@@ -1,24 +1,18 @@
-let websiteData = []; // 用于存储所有网站的数据
+let websiteData = [];
 
-// 使用 Fetch API 获取 JSON 数据
-fetch('data.json')
-    .then(response => response.json())
-    .then(data => {
-        websiteData = data;  // 保存原始数据
-        displayCards(websiteData);  // 初始显示所有卡片
-    })
-    .catch(error => console.error('获取 JSON 数据失败:', error));
-
-// 动态显示卡片
 function displayCards(data) {
     const container = document.getElementById('card-container');
-    container.innerHTML = '';  // 清空现有的卡片
+    container.innerHTML = '';
+
+    if (data.length === 0) {
+        container.innerHTML = '<p style="text-align: center; width: 100%; color: #888;">抱歉，没有找到匹配的网站。</p>';
+        return;
+    }
 
     data.forEach(website => {
         const card = document.createElement('div');
         card.classList.add('card');
 
-        // 创建卡片内容
         const descriptionContent = `
             <p class="description">${website.description}</p>
             <button class="copy-btn" data-url="${website.url}">复制链接</button>
@@ -31,25 +25,21 @@ function displayCards(data) {
             ${descriptionContent}
         `;
 
-        // 获取描述、logo、网站名称和复制按钮元素
         const description = card.querySelector('.description');
         const logo = card.querySelector('.logo');
         const websiteName = card.querySelector('.website-name');
         const copyBtn = card.querySelector('.copy-btn');
 
-        // 点击描述文字时展开或收起
         description.addEventListener('click', () => {
             description.classList.toggle('expanded');
         });
 
-        // 点击 logo 或网站名称时跳转到网站
         [logo, websiteName].forEach(element => {
             element.addEventListener('click', (event) => {
                 window.open(event.target.getAttribute('data-url'), '_blank');
             });
         });
 
-        // 复制链接功能
         copyBtn.addEventListener('click', (event) => {
             const url = event.target.getAttribute('data-url');
             navigator.clipboard.writeText(url)
@@ -66,22 +56,73 @@ function displayCards(data) {
     });
 }
 
-// 搜索功能
-const searchBox = document.getElementById('search-box');
-const searchBtn = document.getElementById('search-btn');
+function executeSearch(searchTerm) {
+    const lowerCaseSearchTerm = searchTerm.trim().toLowerCase();
 
-searchBtn.addEventListener('click', function() {
-    const searchTerm = searchBox.value.trim().toLowerCase();
-    const filteredData = websiteData.filter(website => {
-        const regex = new RegExp(searchTerm, 'i');
-        return regex.test(website.name) || regex.test(website.description);
-    });
-    displayCards(filteredData);
-});
-
-// 回车键也能触发搜索
-searchBox.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-        searchBtn.click();  // 触发搜索按钮点击事件
+    if (lowerCaseSearchTerm === "") {
+        displayCards(websiteData);
+        return;
     }
+
+    try {
+        const regex = new RegExp(lowerCaseSearchTerm, 'i');
+        const filteredData = websiteData.filter(website => {
+            return regex.test(website.name) || regex.test(website.description);
+        });
+        displayCards(filteredData);
+    } catch (error) {
+        console.error("无效的搜索关键字:", error);
+        displayCards(websiteData);
+        alert("搜索关键字格式错误，请检查后重试！");
+    }
+}
+
+function handleSearch() {
+    const searchBox = document.getElementById('search-box');
+    const query = searchBox.value.trim();
+
+    const baseUrl = window.location.origin + window.location.pathname;
+    let newUrl;
+    
+    if (query === "") {
+        newUrl = baseUrl;
+    } else {
+        newUrl = `${baseUrl}?q=${encodeURIComponent(query)}`;
+    }
+    
+    window.location.href = newUrl;
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const searchBox = document.getElementById('search-box');
+    const searchBtn = document.getElementById('search-btn');
+
+    searchBtn.addEventListener('click', handleSearch);
+
+    searchBox.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            handleSearch();
+        }
+    });
+
+    fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+            websiteData = data;
+            
+            const urlParams = new URLSearchParams(window.location.search);
+            const initialQuery = urlParams.get('q');
+            
+            if (initialQuery) {
+                searchBox.value = initialQuery;
+                executeSearch(initialQuery);
+            } else {
+                displayCards(websiteData);
+            }
+        })
+        .catch(error => {
+            console.error('获取 JSON 数据失败:', error);
+            document.getElementById('card-container').innerHTML = '<p style="text-align: center; width: 100%; color: red;">加载网站数据失败。</p>';
+        });
 });
