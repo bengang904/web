@@ -14,6 +14,13 @@
         "description": "Bluesky是一个去中心化的社交媒体平台，旨在为用户提供更大的数据控制权和更开放的在线体验。​它最初由 Twitter（现称 X）创始人杰克·多西（Jack Dorsey）于 2019 年发起，作为 Twitter 内部的一个项目，后来于 2021 年独立运营，成为 Bluesky Social 公益法人公司（PBLLC）的一部分 。"
     },
     {
+        "logo": "images/GitHub Copilot.png",
+        "name": "GitHub Copilot",
+        "url": "https://github.com/copilot",
+        "type": "Ai",
+        "description": "GitHub Copilot 是 GitHub 与 OpenAI 联合开发的 AI 编程助手，能在编写代码时实时生成函数、模块或注释，支持多种语言和 IDE，提高开发效率，"
+    },
+    {
         "logo": "images/GreasyFork.png",
         "name": "GreasyFork",
         "url": "https://greasyfork.org",
@@ -134,6 +141,7 @@
     }
    
 ]
+
 
 
 
