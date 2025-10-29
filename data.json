@@ -17,7 +17,7 @@
         "logo": "images/GitHub Copilot.png",
         "name": "GitHub Copilot",
         "url": "https://github.com/copilot",
-        "type": "Ai",
+        "type": "人工智能",
         "description": "GitHub Copilot 是 GitHub 与 OpenAI 联合开发的 AI 编程助手，能在编写代码时实时生成函数、模块或注释，支持多种语言和 IDE，提高开发效率，"
     },
     {
@@ -141,6 +141,7 @@
     }
    
 ]
+
 
 
 
