@@ -98,13 +98,6 @@
         "description": "RuTracker是一个俄罗斯的非官方 BT种子分享网站，它提供了大量的 torrent文件，用户可以通过它下载各种内容，包括电影、音乐、软件、书籍、游戏等。这个网站是俄罗斯和其他一些国家用户常用的BT下载资源之一，拥有庞大的资源库和用户社区。"
     },
     {
-        "logo": "images/SMS-Activate.png",
-        "name": "SMS-Activate",
-        "url": "https://sms-activate.io",
-        "type": "SMS短信服务",
-        "description": "SMS-Activate 是一个提供临时手机号码接收短信验证的服务平台。用户可以通过该平台购买虚拟的手机号码，用于接收短信验证码，通常用于注册网站账户、验证应用等场景。这个服务主要面向需要验证的用户，特别是在匿名或者不希望透露个人手机号码的情况下。"
-    },
-    {
         "logo": "images/Tineye.png",
         "name": "Tineye",
         "url": "https://tineye.com",
@@ -126,14 +119,15 @@
         "description": "Wikipedia是一个全球最大的、自由的在线百科全书，任何人都可以编辑和贡献内容。它是由 维基媒体基金会（Wikimedia Foundation）运营的一个项目，目标是提供全球范围的免费知识，任何人都可以在没有注册账户的情况下查阅内容。"
     },
     {
-        "logo": "images/Z-library.png",
-        "name": "Z-library",
-        "url": "https://z-library.sk",
-        "type": "免费电子图书",
-        "description": "​Z-Library是一个非官方的数字图书馆，提供大量电子书籍和学术文章的免费下载。​该平台收录了超过 1,400 万本书籍和 8,400 万篇文章，涵盖文学、科技、医学、历史等多个领域，支持 PDF、EPUB、MOBI 等多种格式。"
+        "logo": "images/Open-Slum.png",
+        "name": "Open-Slum",
+        "url": "https://open-slum.org",
+        "type": "状态监控面板",
+        "description": "Open-Slum 是一个用来监控“影子图书馆”（Shadow Library）是否在线的网站。简单说，它不是下载站，而是一个状态监控面板。"
     }
    
 ]
+
 
 
 
