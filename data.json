@@ -55,6 +55,13 @@
         "type": "视频在线会议",
         "description": "Jitsi 是一个开源的在线视频会议和即时通讯平台，提供多种实时通信服务。它支持视频通话、语音通话、聊天、屏幕共享等功能，广泛应用于团队协作、在线教育和远程工作等场景。"
     },
+    {
+        "logo": "images/Matrix.png",
+        "name": "Matrix",
+        "url": "https://matrix.org",
+        "type": "去中心化即时通信",
+        "description": "Matrix 是一个开源的去中心化即时通信协议，支持跨服务器聊天、端到端加密和多平台客户端，可用于聊天、群组、语音和跨平台通信。"
+    },
       {
         "logo": "images/Just My Socks.png",
         "name": "Just My Socks",
@@ -127,6 +134,7 @@
     }
    
 ]
+
 
 
 
