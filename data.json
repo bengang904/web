@@ -122,14 +122,14 @@
         "logo": "images/wikileaks.jpg",
         "name": "wikileaks",
         "url": "https://wikileaks.org",
-        "type": "维基解密",
+        "type": "互联网档案",
         "description": "WikiLeaks（维基解密）是一个国际性的非营利媒体组织，专门通过协助知情人通过匿名方式，向公众发布关于政府、企业或机构的机密文件、内部报告以及审查资料。"
     },
     {
         "logo": "images/Wikipedia.png",
         "name": "Wikipedia",
         "url": "https://www.wikipedia.org",
-        "type": "互联网档案",
+        "type": "百科",
         "description": "Wikipedia是一个全球最大的、自由的在线百科全书，任何人都可以编辑和贡献内容。它是由 维基媒体基金会（Wikimedia Foundation）运营的一个项目，目标是提供全球范围的免费知识，任何人都可以在没有注册账户的情况下查阅内容。"
     },
     {
@@ -141,6 +141,7 @@
     }
    
 ]
+
 
 
 
