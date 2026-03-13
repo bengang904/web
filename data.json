@@ -119,7 +119,7 @@
         "description": "Unsplash 是一个免费的高质量图片分享平台，提供大量高分辨率的摄影作品，所有的图片都可以自由下载、使用和分享，且不需要支付版权费用。它主要面向设计师、博主、内容创作者和开发者，提供了一个丰富的资源库，用于各种商业和非商业项目。"
     },
      {
-        "logo": "images/wikileaks.png",
+        "logo": "images/wikileaks.jpg",
         "name": "wikileaks",
         "url": "https://wikileaks.org",
         "type": "维基解密",
@@ -141,6 +141,7 @@
     }
    
 ]
+
 
 
 
