@@ -104,6 +104,13 @@
         "type": "BT种子下载站",
         "description": "RuTracker是一个俄罗斯的非官方 BT种子分享网站，它提供了大量的 torrent文件，用户可以通过它下载各种内容，包括电影、音乐、软件、书籍、游戏等。这个网站是俄罗斯和其他一些国家用户常用的BT下载资源之一，拥有庞大的资源库和用户社区。"
     },
+      {
+        "logo": "images/The Pirate Bay.png",
+        "name": "The Pirate Bay",
+        "url": "https://thepiratebay.org",
+        "type": "BT种子下载站",
+        "description": "The Pirate Bay（海盗湾）是世界上最著名的 BitTorrent 种子索引网站之一。帮助用户找到 torrent / magnet 下载资源，但网站本身通常 不直接存储文件。"
+    },
     {
         "logo": "images/Tineye.png",
         "name": "Tineye",
