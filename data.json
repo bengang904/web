@@ -150,14 +150,14 @@
         "logo": "images/Sketchfab.png",
         "name": "Sketchfab",
         "url": "https://sketchfab.com",
-        "type": "3D",
+        "type": "3D 模型展示",
         "description": "Sketchfab 是全球最大的 3D 模型在线展示、发布与交易平台。"
     },
     {
         "logo": "images/Thingiverse.png",
         "name": "Thingiverse",
         "url": "https://thingiverse.com",
-        "type": "3D 打印",
+        "type": "3D 模型打印",
         "description": "Thingiverse 是全球最大的开源 3D 打印模型托管平台。它由 3D 打印机制造商 MakerBot Industries 于 2008 年创办，现已发展成为创客（Makers）和 3D 打印爱好者交流、分享及下载数字设计文件的核心社区。"
     }
    
