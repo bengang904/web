@@ -105,13 +105,6 @@
         "description": "The Pirate Bay（海盗湾）是世界上最著名的 BitTorrent 种子索引网站之一。帮助用户找到 torrent / magnet 下载资源，但网站本身通常 不直接存储文件。"
     },
     {
-        "logo": "images/Tineye.png",
-        "name": "Tineye",
-        "url": "https://tineye.com",
-        "type": "反向图片搜索",
-        "description": "TinEye 是一个专注于反向图片搜索的在线工具，利用图像识别技术帮助用户查找图片的来源、使用情况、修改版本，甚至找到更高分辨率的版本。​与传统的基于文本关键词的搜索方式不同，TinEye 通过分析图片的特征，生成独特的“指纹”并与其庞大的数据库进行比对，从而找出相同或相似的图片来源。"
-    },
-    {
         "logo": "images/Unsplash.png",
         "name": "Unsplash",
         "url": "https://unsplash.com",
@@ -150,7 +143,7 @@
         "logo": "images/Sonic Tau.png",
         "name": "Sonic Tau",
         "url": "https://sonic-pi.net/tau",
-        "type": "实时代码音乐软件",
+        "type": "实时代码音乐编程",
         "description": "Sonic Tau 是一个运行在浏览器里的实时代码音乐编程系统。"
     },
     {
@@ -159,6 +152,13 @@
         "url": "https://thingiverse.com",
         "type": "3D 模型打印",
         "description": "Thingiverse 是全球最大的开源 3D 打印模型托管平台。它由 3D 打印机制造商 MakerBot Industries 于 2008 年创办，现已发展成为创客（Makers）和 3D 打印爱好者交流、分享及下载数字设计文件的核心社区。"
+    },
+    {
+        "logo": "images/Tineye.png",
+        "name": "Tineye",
+        "url": "https://tineye.com",
+        "type": "反向图片搜索",
+        "description": "TinEye 是一个专注于反向图片搜索的在线工具，利用图像识别技术帮助用户查找图片的来源、使用情况、修改版本，甚至找到更高分辨率的版本。​与传统的基于文本关键词的搜索方式不同，TinEye 通过分析图片的特征，生成独特的“指纹”并与其庞大的数据库进行比对，从而找出相同或相似的图片来源。"
     }
    
 ]
