@@ -147,6 +147,13 @@
         "description": "Sketchfab 是全球最大的 3D 模型在线展示、发布与交易平台。"
     },
     {
+        "logo": "images/Sonic Tau.png",
+        "name": "Sonic Tau",
+        "url": "https://sonic-pi.net/tau",
+        "type": "实时代码音乐软件",
+        "description": "Sonic Tau 是一个运行在浏览器里的实时代码音乐编程系统。"
+    },
+    {
         "logo": "images/Thingiverse.png",
         "name": "Thingiverse",
         "url": "https://thingiverse.com",
